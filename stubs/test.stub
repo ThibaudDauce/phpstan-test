@@ -1,0 +1,10 @@
+<?php
+
+namespace PhpstanTest;
+
+/**
+ * @property string $toto
+ */
+class Test {
+
+}

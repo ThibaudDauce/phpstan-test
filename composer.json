@@ -1,0 +1,16 @@
+{
+    "license": "mit",
+    "name": "test/test",
+    "description": "Test",
+    "require": {
+        "phpstan/phpstan": "^0.12.56"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpstanTest\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "classmap": ["stubs"]
+    }
+}
